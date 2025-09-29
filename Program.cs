@@ -41,7 +41,7 @@
             // case 1: create enemy Willow
             RangedValue _willowHealth = new RangedValue(name: "Health", min: 0, max: 20, current: 20);
             RangedValue _willowMana = new RangedValue(name: "Mana", min: 0, max: 00, current: 00);
-            Status _willowStatus = new Status(health: _health, mana: _mana, attack: 2);
+            Status _willowStatus = new Status(health: _willowHealth, mana: _willowMana, attack: 2);
 
             Enemy willow = new Enemy(name: "Willow", status: _willowStatus);
 
